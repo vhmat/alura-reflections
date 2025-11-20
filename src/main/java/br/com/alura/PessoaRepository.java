@@ -1,4 +1,4 @@
-package br.com.alura;
+package main.java.br.com.alura;
 
 public class PessoaRepository {
     public Pessoa list(){
