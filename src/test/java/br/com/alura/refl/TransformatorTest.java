@@ -3,6 +3,7 @@ package br.com.alura.refl;
 import br.com.alura.Cliente;
 import br.com.alura.Pessoa;
 import br.com.alura.PessoaDTO;
+import br.com.alura.fixture.PessoaFixture;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -10,7 +11,7 @@ import java.lang.reflect.InvocationTargetException;
 
 public class TransformatorTest {
 
-    Pessoa pessoa = new Pessoa(1, "Exemplo", "123.456.789-00");
+    Pessoa pessoa = PessoaFixture.buildPessoa();
     Transformator transformator = new Transformator();
     Cliente cliente = new Cliente();
 
