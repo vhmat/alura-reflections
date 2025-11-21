@@ -29,3 +29,7 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+
+# Exclui a pasta de output do Maven
+target/

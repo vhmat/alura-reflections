@@ -1,4 +1,4 @@
-package main.java.br.com.alura;
+package br.com.alura;
 
 public class Pessoa {
 
@@ -10,6 +10,10 @@ public class Pessoa {
         this.id = id;
         this.nome = nome;
         this.cpf = cpf;
+    }
+
+    public Pessoa (){
+
     }
 
     public Integer getId() {
